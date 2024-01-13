@@ -20,7 +20,7 @@ class MobTree():
         self.node_features = node_features
         self.leaf_features = leaf_features
         self.alpha = alpha
-        beta = pd.read_csv('/home/htt/XAI/yjn/Sigmod2022/TreeModel/mobtree/beta.csv')
+        beta = pd.read_csv('./beta.csv')
         self.beta = np.array(beta)
 
     def estfun(self,obj):
